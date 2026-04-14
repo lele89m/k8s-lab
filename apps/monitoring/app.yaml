@@ -20,14 +20,6 @@ spec:
         prometheus:
           prometheusSpec:
             retention: 7d
-        kubeControllerManager:
-          enabled: false
-        kubeScheduler:
-          enabled: false
-        kubeProxy:
-          enabled: false
-        kubeEtcd:
-          enabled: false
 
   destination:
     server: https://kubernetes.default.svc
