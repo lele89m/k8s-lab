@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/lele89m/k8s-lab.git
     targetRevision: main
-    path: /apps
+    path: /k8s-lab/apps
 
   destination:
     server: https://kubernetes.default.svc
